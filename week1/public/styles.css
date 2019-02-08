@@ -1,7 +1,10 @@
+*   {
+ font-family: Arial;  /* For all */
+}
+
 /* Grid */
 grid section > div {
   background-color: red;
-  border: 1px solid black;
   box-shadow: 10px 10px 20px grey;
   font-size; 30px;
   margin: 20px;
@@ -19,32 +22,82 @@ grid > section   {
 }
 
 /* Section = containers */
-grid section:nth-child(1) {
+grid section[data-section-type="section_one"]  {
   align-items: center;
 }
 
 /* Item boxes */
-grid section:nth-child(1) > div:nth-child(1) {
+grid section div[data-nummer-type="english"] {
   width: 400px;
   height: 480px;
 }
 
-grid section:nth-child(1) > div:nth-child(2) {
+grid section div[data-nummer-type="video"] {
   width: 500px;
   height: 350px;
 }
 
-grid section:nth-child(2) > div:nth-child(1) {
+grid section div[data-nummer-type="french"] {
   width: 600px;
   height: 400px;
 }
 
-grid section:nth-child(3) > div:nth-child(1) {
+grid section div[data-nummer-type="german"] {
   width: 400px;
   height: 400px;
 }
 
-grid section:nth-child(3) > div:nth-child(2) {
+grid section div[data-nummer-type="spain"] {
   width: 400px;
   height: 400px;
+}
+
+/* text */
+h1   {
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  font-size: 30px;
+  padding: 10px;
+}
+
+p:hover {
+  color: #fff;
+  -webkit-animation: random 5s infinite;
+  animation: random 5s infinite;
+}
+
+@keyframes  random {
+    15% { color: red; }
+    30% { color: yellow; }
+    45% { color: green; }
+    60% { color: blue; }
+    75% { color: white; }
+}
+
+/* right */
+p[data-p-type="english_food_one"], p[data-p-type="english_food_two"],
+p[data-p-type="french_food_three"], p[data-p-type="french_food_four"],
+p[data-p-type="spain_food_four"] {
+  text-align: right;
+}
+
+/* center */
+p[data-p-type="english_food_four"],p[data-p-type="german_food_one"],
+p[data-p-type="german_food_two"], p[data-p-type="german_food_three"],
+p[data-p-type="spain_food_two"]  {
+  text-align: center;
+}
+
+/* video */
+iframe  {
+  height: 100%;
+  width: 100%;
+}
+
+/* target(click) = plaatjes */
+p[data-p-type="english_food_one"]:target   {
+    background-color: green;
 }
