@@ -4,50 +4,76 @@
     <meta charset="UTF-8">
     <script src="public/app.js"></script>
     <link rel="stylesheet" type="text/css" href="public/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <title>title</title>
   </head>
   <body>
 
-    <h1>Restaurant menu</h1>
+    <div data-h-type="h1">
+      <span>R</span>
+      <span>E</span>
+      <span>S</span>
+      <span>T</span>
+      <span>A</span>
+      <span>U</span>
+      <span>R</span>
+      <span>A</span>
+      <span>N</span>
+      <span>T</span>
+      <span>_</span>
+
+      <span>M</span>
+      <span>E</span>
+      <span>N</span>
+      <span>U</span>
+    </div>
 
       <grid>
-        <section data-section-type="section_one">
-           <div data-nummer-type="english">
-                <p data-p-type="english_food_one"><a href="data-p-type="english_food_one"">Cheesecake</a></p>
-                <p data-p-type="english_food_two">Sunday roast Beef</p>
-                <p data-p-type="english_food_three">Scotch Fried Eggs</p>
-                <p data-p-type="english_food_four">Shepherds pie</p>
+        <section data-section-type="section_one" >
+           <div data-nummer-type="english" class="moving">
+                <p data-p-type="english_food_one" onclick="cheesecake()">Cheesecake</p>
+                <p data-p-type="english_food_two" onclick="sunday()">Sunday roast Beef</p>
+                <p data-p-type="english_food_three" onclick="scotch()">Scotch Fried Eggs</p>
+                <p data-p-type="english_food_four" onclick="shepherds()">Shepherds pie</p>
            </div>
-           <div data-nummer-type="video">
-              <!-- <iframe
+           <div data-nummer-type="video" class="moving">
+              <iframe
                   src="https://www.youtube.com/embed/ESzyHmJZkGE?playlist=ESzyHmJZkGE&loop=1">
-              </iframe> -->
+              </iframe>
            </div>
         </section>
         <section data-section-type="section_two">
-            <div data-nummer-type="french">
-              <p data-p-type="french_food_one">Tarte tatin</p>
-              <p data-p-type="french_food_two">Quiche Lorraine</p>
-              <p data-p-type="french_food_three">Coq au vin</p>
-              <p data-p-type="french_food_four">Fruits de mer</p>
+            <div data-nummer-type="french" class="moving" >
+              <p data-p-type="french_food_one" onclick="tartetatin()">Tarte tatin</p>
+              <p data-p-type="french_food_two" onclick="quichelorraine()">Quiche Lorraine</p>
+              <p data-p-type="french_food_three" onclick="coqauvin()">Coq au vin</p>
+              <p data-p-type="french_food_four" onclick="fruitsdemer()">Fruits de mer</p>
             </div>
         </section>
-        <section data-section-type="section_three">
+        <section data-section-type="section_three" class="moving">
          <div data-nummer-type="german">
-               <p data-p-type="german_food_one">Bratwurst</p>
-               <p data-p-type="german_food_two">Jägerschnitzel</p>
-               <p data-p-type="german_food_three">Apfelstrudel</p>
-               <p data-p-type="german_food_four">Pretzel</p>
+               <p data-p-type="german_food_one" onclick="bratwurst()">Bratwurst</p>
+               <p data-p-type="german_food_two" onclick="jagerschnitzel()">Jägerschnitzel</p>
+               <p data-p-type="german_food_three" onclick="apfelstrudel()">Apfelstrudel</p>
+               <p data-p-type="german_food_four" onclick="pretzel()">Pretzel</p>
          </div>
-         <div data-nummer-type="spain">
-               <p data-p-type="spain_food_one">Sangria</p>
-               <p data-p-type="spain_food_two">Pan con tomate</p>
-               <p data-p-type="spain_food_three">Paella pollo</p>
-               <p data-p-type="spain_food_four">Crema Catalana</p>
+         <div data-nummer-type="spain" class="moving">
+               <p data-p-type="spain_food_one" onclick="sangria()">Sangria</p>
+               <p data-p-type="spain_food_two" onclick="pancontomate()">Pan con tomate</p>
+               <p data-p-type="spain_food_three" onclick="paellapollo()">Paella pollo</p>
+               <p data-p-type="spain_food_four" onclick="cremacatalana()">Crema Catalana</p>
          </div>
        </section>
 
-      </grid>
+       <img data-img-type="food" src="pictures/bacon-burger.png" >
+       <img data-img-type="pizza" src="pictures/pizza.png" >
+       <img data-img-type="salade" src="pictures/salade.png" >
+
+       <video autoplay loop data-video-type="video-background" muted plays-inline>
+          <source src="pictures/restaurant_shortfilm.mov" type="video/mp4">
+      </video>
+
+    </grid>
 
 
   </body>
