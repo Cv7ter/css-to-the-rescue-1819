@@ -67,7 +67,7 @@ div[data-h-type="h1"]  {
 div[data-h-type="h1"] span {
 	cursor: pointer;
 	display: inline-block;
-	font-size: 600%;
+	font-size: 800%;
 	user-select: none;
 }
 
