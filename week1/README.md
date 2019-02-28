@@ -20,6 +20,7 @@ Two restrictions
 Checkbox
 In het menu als er op een gerecht geklikt wordt komt er een foto tevoorschijn van het gerecht. Het was eerst de bedoeling om het met checkbox te maken, alleen is dat niet gelukt om af te maken. Het probleem is dat de foto niet in de box past waarin de gerechten staan. De foto komt constant over de box heen en wordt uitgelijnd waardoor de foto niet mooi valt. Om de foto toch werkend te krijgen is er een beetje javascript gebruikt om te laten zien wat de bedoeling was met de checkboxen.
 Hieronder ziet u de foto’s met de code van de checkboxen:
+https://imgur.com/BXCVrYl 
  
   
 Beoordeling
