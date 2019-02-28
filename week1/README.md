@@ -25,8 +25,8 @@ https://imgur.com/1xKeahU <br>
 https://imgur.com/MjlFfJR
  
   
-Beoordeling
- 
+Beoordeling <br>
+https://imgur.com/ktWyG9X 
 
 1.	Het proberen in binnen 3 weken een pagina te maken met zoveel mogelijk soorten css te gebruiken is goed gelukt. Ik heb geprobeerd zoveel mogelijk animatie erin te doen en om een leuke menu pagina te maken. Achter sommige animatie zit ook een leuke grap achter, zoals bij de gerechten. Bij de gerechten is het niet leesbaar omdat de achtergrond plaatjes zwart of kleurrijk zijn. Er moet dan op een gerecht gehoverd worden om het toch te lezen. Zo komen de gebruikers de verschillende animaties tegen.
 2.	Ik heb geprobeerd om zoveel mogelijk inheritance en specifity te gebruiken. Alle animaties worden boven de 85 tot 90 procent gesupporterd door de browsers.
