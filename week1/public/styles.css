@@ -347,25 +347,3 @@ video[data-video-type="video-background"] {
   height: auto;
   z-index: -100;
 }
-
-/* checkbox */
-/* 
-input[type=checkbox] {
-    visibility: hidden;
-}
-
-.checkboxOne {
-    width: 500px;
-    height: 500px;
-    position: relative;
-}
-
-.checkboxOne label {
-    cursor: pointer;
-    position: absolute;
-    background: url('../pictures/cheesecake.jpg');
-}
-
-/* .checkboxOne input[type=checkbox]:checked + label {
-    background-image: url('pictures/cheesecake.jpg');
-} */ */
